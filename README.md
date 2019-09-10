@@ -51,6 +51,10 @@ where postal_code = '1010'
 ### find the phone number for the supplier with the id 11. Should be (010) 9984510.
 > This can be done with SELECT and WHERE clauses
 
+select phone
+from suppliers
+where supplier_id = 11
+
 
 ### list orders descending by the order date. The order with date 1998-05-06 should be at the top.
 > This can be done with SELECT, WHERE, and ORDER BY clauses
