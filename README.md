@@ -127,6 +127,10 @@ order by count desc
 ### list orders grouped by customer's city showing number of orders per city. Returns 69 Records with _Aachen_ showing 6 orders and _Albuquerque_ showing 18 orders.
 > This is very similar to the previous two queries, however, it focuses on the City rather than the CustomerName
 
+select c.city, count(*)
+from customers c join orders o
+on o.customer_id = c.customer_id
+group by c.city
 
 ## Data Normalization
 
