@@ -77,6 +77,10 @@ where length(company_name) > 20
 
 > Remember to convert your contact title to all upper case for case insenstive comparing so upper(contact_title)
 
+select *
+from customers
+where upper(contact_title) like '%MARKET%' 
+
 
 ### add a customer record for   
 * customer id is 'SHIRE'
