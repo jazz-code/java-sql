@@ -145,6 +145,22 @@ Take the following data and normalize it into a 3NF database.
 | Sam         | Ginger   | Dog      | Miss Kitty | Cat        | Bubble     | Fish       | Yes         | No           |
 
 ---
+
+## Person Table
+| Person ID | Person Name | Fenced Yard  | City Dweller |
+|-----------|:-----------:|--------------|--------------|
+| 1         | Jane        |  No          | Yes          |
+| 2         | Bob         |  No          | No           |
+| 3         | Sam         |  Yes         | No           |
+
+## Pet Type Table
+| Person ID | Pet Name | Pet Type | Pet Name 2 | Pet Type 2 | Pet Name 3 | Pet Type 3 |
+|-----------|----------|----------|------------|------------|------------|------------|
+| 1         | Ellie    | Dog      | Tiger      | Cat        | Toby       | Turtle     |
+| 2         | Joe      | Horse    |            |            |            |            |
+| 3         | Ginger   | Dog      | Miss Kitty | Cat        | Bubble     | Fish       |
+
+---
 ## Stretch Goals
 
 ### delete all customers that have no orders. Should delete 17 (or 18 if you haven't deleted the record added) records.
