@@ -92,6 +92,9 @@ where upper(contact_title) like '%MARKET%'
 * the country is 'Middle Earth'
 > This can be done with the INSERT INTO clause
 
+insert into customers(customer_id, company_name, contact_name, address, city, postal_code, country)
+values ('SHIRE', 'The Shire', 'Bilbo Baggins', '1 Hobbit-Hole', 'Bag end', 111, 'Middle Earth')
+
 
 ### update _Bilbo Baggins_ record so that the postal code changes to _"11122"_.
 > This can be done with UPDATE and WHERE clauses
